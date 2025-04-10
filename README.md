@@ -1,8 +1,7 @@
 # SQL-Automated-RFM-Analysis-and-Customer-Segmentation-Project
 
-Created By: Abhisar Sharma
+Author:     Abhisar Sharma
 Email:      Abhisars117@gmail.com
-Dataset:    https://www.kaggle.com/datasets/carrie1/ecommerce-data/data
 
 
 ## What is RFM Analysis ans Customer Segmentation?
@@ -30,6 +29,31 @@ After calculating RFM scores for all customers, you can create segments such as:
 
 ## 🛠️ Tools Used
 
-- **SQL** – Data querying and transformation
-- **PostgreSQL**
+- **SQL/POSTGRESQL** – For cleaning and preparing data for analysis, RFM analysis and customer segmentation
 - **Power BI** – *For visualization and dashboard creation*
+
+
+## 🧮 RFM Explained
+
+- **Recency (R):** How recently a customer made a purchase
+- **Frequency (F):** How often they purchase
+- **Monetary (M):** How much money they've spent
+
+Each customer is scored based on these three dimensions, allowing you to create customer segments like:
+
+- Champions
+- Loyal
+- Potential loyalist
+- New customers
+- Promising
+- Need attention
+- About to sleep
+- Cannot lose
+- At risk
+- Hibernating
+- Lost
+
+
+## 📁 Dataset
+
+The data set used in this project was taken from Kaggle: [E-Commerce Data]([https://example.com](https://www.kaggle.com/datasets/carrie1/ecommerce-data/data)).
