@@ -33,6 +33,14 @@ After calculating RFM scores for all customers, you can create segments such as:
 - **Power BI** – *For visualization and dashboard creation*
 
 
+## ✨ Features
+
+-  RFM Analysis using SQL
+-  Customer Segmentation logic
+-  Power BI Dashboard (interactive visuals)
+-  Ready for deployment/automation
+
+
 ## 🧮 RFM Explained
 
 - **Recency (R):** How recently a customer made a purchase
@@ -56,4 +64,4 @@ Each customer is scored based on these three dimensions, allowing you to create 
 
 ## 📁 Dataset
 
-The data set used in this project was taken from Kaggle: [E-Commerce Data]([https://example.com](https://www.kaggle.com/datasets/carrie1/ecommerce-data/data)).
+The data set used in this project was taken from Kaggle: [E-Commerce Data](https://www.kaggle.com/datasets/carrie1/ecommerce-data/data)
