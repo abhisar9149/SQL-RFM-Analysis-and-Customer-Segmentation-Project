@@ -65,3 +65,8 @@ Each customer is scored based on these three dimensions, allowing you to create 
 ## 📁 Dataset
 
 The data set used in this project was taken from Kaggle: [E-Commerce Data](https://www.kaggle.com/datasets/carrie1/ecommerce-data/data)
+
+
+## Screenshots
+
+
