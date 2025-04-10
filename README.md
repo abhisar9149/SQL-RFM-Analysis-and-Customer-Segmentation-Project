@@ -1,7 +1,9 @@
 # SQL-Automated-RFM-Analysis-and-Customer-Segmentation-Project
 
-Author:     Abhisar Sharma
+
+Author:     Abhisar Sharma  
 Email:      Abhisars117@gmail.com
+
 
 
 ## What is RFM Analysis ans Customer Segmentation?
@@ -19,7 +21,7 @@ After calculating RFM scores for all customers, you can create segments such as:
 - Boosts ROI with targeted campaigns.
 
 
-## Project Objectives
+## 📌 Project Objectives
 
 - Analyze customer purchase data using SQL
 - Find out the 20% customers that generate 80% of revenue
@@ -69,4 +71,6 @@ The data set used in this project was taken from Kaggle: [E-Commerce Data](https
 
 ## Screenshots
 
+![1](screenshots/Screenshot 2025-04-10 150821.png)  
 
+![2](screenshots/Screenshot 2025-04-10 150730.png)
