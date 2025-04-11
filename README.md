@@ -73,4 +73,4 @@ The data set used in this project was taken from Kaggle: [E-Commerce Data](https
 
 ![1](screenshots/Screenshot 2025-04-10 150821.png)  
 
-![2]([screenshots/Screenshot 2025-04-10 150730.png](https://github.com/abhisar9149/SQL-RFM-Analysis-and-Customer-Segmentation-Project/blob/main/screenshots/Screenshot%202025-04-10%20150730.png))
+![image alt](https://github.com/abhisar9149/SQL-RFM-Analysis-and-Customer-Segmentation-Project/blob/main/screenshots/Screenshot%202025-04-10%20150730.png))
