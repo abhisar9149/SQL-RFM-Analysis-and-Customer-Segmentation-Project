@@ -30,7 +30,7 @@ After calculating RFM scores for all customers, you can create segments such as:
 
 
 ## 🛠️ Tools Used
-
+- **Python** - For standardizing and formatting columns to import the data set into PostgreSQL without issues
 - **SQL/POSTGRESQL** – For cleaning and preparing data for analysis, RFM analysis and customer segmentation
 - **Power BI** – *For visualization and dashboard creation*
 
