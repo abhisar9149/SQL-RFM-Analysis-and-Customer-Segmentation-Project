@@ -21,8 +21,15 @@ It demonstrates a full data analysis workflow:
 - Python (Pandas, Jupyter Notebook)  
 - PostgreSQL  
 - SQL  
-- Power BI  
+- Power BI
 
+### What is RFM analysis?
+
+RFM (Recency, Frequency, Monetary) is a customer segmentation technique that ranks customers based on:
+
+- **Recency:** How recently they purchased
+- **Frequency:** How often they purchase
+- **Monetary:** How much they spend
 ---
 
 ## 📂 Dataset
