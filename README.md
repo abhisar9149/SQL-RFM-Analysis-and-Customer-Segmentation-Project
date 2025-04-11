@@ -1,76 +1,107 @@
-# SQL-Automated-RFM-Analysis-and-Customer-Segmentation-Project
 
 
-Author:     Abhisar Sharma  
-Email:      Abhisars117@gmail.com
+# 📊 SQL-Automated RFM Analysis and Customer Segmentation Project
 
+**Author**: Abhisar Sharma  
+**Email**: abhisars117@gmail.com  
 
+This project performs a complete **RFM (Recency, Frequency, Monetary)** analysis on e-commerce customer data to identify and segment key customer groups.
 
-## What is RFM Analysis ans Customer Segmentation?
+It demonstrates a full data analysis workflow:
 
-RFM is a customer segmentation technique used in marketing and data analytics to identify and categorize customers based on their purchasing behavior.
+- 🧹 Data cleaning with **Python**
+- 🛢️ Data storage and querying with **PostgreSQL**
+- 🧮 Customer scoring and segmentation using **SQL**
+- 📈 Visual insights via **Power BI** with **automated refresh**
 
-After calculating RFM scores for all customers, you can create segments such as: Champions, Loyal Customers, Potential loyalists, At Risk etc.
+---
 
+## 🛠️ Tools & Technologies
 
-## Why is RFM Analysis and Customer Segmentation useful?
+- Python (Pandas, Jupyter Notebook)  
+- PostgreSQL  
+- SQL  
+- Power BI  
 
-- Helps in personalized marketing.
-- Improves customer retention.
-- Prioritizes marketing efforts on high-value users.
-- Boosts ROI with targeted campaigns.
+---
 
+## 📂 Dataset
 
-## 📌 Project Objectives
+- **Source**: [Kaggle – Ecommerce Data](https://www.kaggle.com/datasets/carrie1/ecommerce-data/)
+- **Rows**: 541,909  
+- **Size**: ~45.5 MB  
+- **Columns**:
+  - `InvoiceNo`, `StockCode`, `Description`, `Quantity`, `InvoiceDate`, `UnitPrice`, `CustomerID`, `Country`
 
-- Analyze customer purchase data using SQL
-- Find out the 20% customers that generate 80% of revenue
-- Segment customers into meaningful categories based on RFM scores
-- Provide actionable insights for business decisions
+---
 
+## 🔄 Project Workflow
 
-## 🛠️ Tools Used
-- **Python** - For standardizing and formatting columns to import the data set into PostgreSQL without issues
-- **SQL/POSTGRESQL** – For cleaning and preparing data for analysis, RFM analysis and customer segmentation
-- **Power BI** – *For visualization and dashboard creation*
+1. **Data Preprocessing (Python)**
+   - Standardized column names
+   - Cleaned and formatted datetime column
+   - Exported cleaned CSV
 
+2. **Data Storage (PostgreSQL)**
+   - Created a new table and imported the cleaned CSV using `pgAdmin`
 
-## ✨ Features
+3. **Data Cleaning in SQL**
+   - Removed duplicates and NULL values
+   - Excluded “Orphan Returns” (returns without a matching purchase)
 
--  RFM Analysis using SQL
--  Customer Segmentation logic
--  Power BI Dashboard (interactive visuals)
--  Ready for deployment/automation
+4. **RFM Analysis (SQL)**
+   - Calculated Recency, Frequency, and Monetary values
+   - Applied quantile-based scoring
+   - Segmented customers based on RFM scores
 
+5. **Visualization (Power BI)**
+   - Created an interactive dashboard with slicers and metrics
+   - Used DAX for segment-wise insights
+   - Published report and **automated refresh using Power BI Service**
 
-## 🧮 RFM Explained
+---
 
-- **Recency (R):** How recently a customer made a purchase
-- **Frequency (F):** How often they purchase
-- **Monetary (M):** How much money they've spent
+## 🚀 How to Use This Project
 
-Each customer is scored based on these three dimensions, allowing you to create customer segments like:
+1. **Clone the Repository**  
+   Clone this GitHub repository to your local machine using:
 
-- Champions
-- Loyal
-- Potential loyalist
-- New customers
-- Promising
-- Need attention
-- About to sleep
-- Cannot lose
-- At risk
-- Hibernating
-- Lost
+   ```
+   git clone https://github.com/abhisar9149/SQL-RFM-Analysis-and-Customer-Segmentation-Project.git
+   ```
 
+2. **Download the Dataset**  
+   - Go to [Kaggle – Ecommerce Data](https://www.kaggle.com/datasets/carrie1/ecommerce-data/)
+   - Download the dataset
+   - Place the CSV file inside the project folder
 
-## 📁 Dataset
+3. **Preprocess the Data (Python)**  
+   - Open the provided Python notebook/script
+   - This script:
+     - Standardizes column names
+     - Fixes date/time formats (`InvoiceDate`)
+     - Outputs `cleaned_data.csv`
 
-The data set used in this project was taken from Kaggle: [E-Commerce Data](https://www.kaggle.com/datasets/carrie1/ecommerce-data/data)
+4. **Import Data into PostgreSQL**  
+   - Launch pgAdmin and connect to your database
+   - Create a new table with 8 columns matching the dataset
+   - Import the cleaned CSV using pgAdmin or the `COPY` SQL command
 
+5. **Run SQL Script for RFM Analysis**  
+   - Open `ecommerce_data_rfm_analysis.sql` in pgAdmin’s query tool
+   - Execute the SQL queries to:
+     - Clean and transform the data
+     - Calculate RFM metrics
+     - Segment customers
+
+6. **Open Power BI Dashboard**  
+   - Open the `.pbix` file provided in the repo
+   - Update the data source to your PostgreSQL connection
+   - Refresh the data to reflect your database results
 
 ## Screenshots
 
 ![image alt](https://github.com/abhisar9149/SQL-RFM-Analysis-and-Customer-Segmentation-Project/blob/37b03690cab06c84ae82225b9b0572e1a7576613/screenshots/Screenshot%202025-04-10%20150821.png)  
 
 ![image alt](https://github.com/abhisar9149/SQL-RFM-Analysis-and-Customer-Segmentation-Project/blob/main/screenshots/Screenshot%202025-04-10%20150730.png))
+
