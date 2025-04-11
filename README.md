@@ -14,6 +14,14 @@ It demonstrates a full data analysis workflow:
 - 🧮 Customer scoring and segmentation using **SQL**
 - 📈 Visual insights via **Power BI** with **automated refresh**
 
+### 📊 What is RFM analysis?
+
+RFM (Recency, Frequency, Monetary) is a customer segmentation technique that ranks customers based on:
+
+- **Recency:** How recently they purchased
+- **Frequency:** How often they purchase
+- **Monetary:** How much they spend
+
 ---
 
 ## 🛠️ Tools & Technologies
@@ -23,13 +31,6 @@ It demonstrates a full data analysis workflow:
 - SQL  
 - Power BI
 
-### What is RFM analysis?
-
-RFM (Recency, Frequency, Monetary) is a customer segmentation technique that ranks customers based on:
-
-- **Recency:** How recently they purchased
-- **Frequency:** How often they purchase
-- **Monetary:** How much they spend
 ---
 
 ## 📂 Dataset
